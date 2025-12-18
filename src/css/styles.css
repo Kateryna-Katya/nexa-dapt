@@ -993,3 +993,49 @@ section {
         margin-top: 30px;
     }
 }
+.pages {
+    padding: 150px 0 100px;
+    background: var(--bg-dark);
+    min-height: 80vh;
+}
+
+.pages h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: var(--primary);
+}
+
+.pages h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    margin: 40px 0 20px;
+    color: var(--white);
+}
+
+.pages p {
+    margin-bottom: 20px;
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.pages ul {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.pages ul li {
+    list-style-type: disc;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+
+.pages strong {
+    color: var(--white);
+}
+
+.pages a {
+    color: var(--secondary);
+    text-decoration: underline;
+}
